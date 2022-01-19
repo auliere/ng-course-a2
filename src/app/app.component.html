@@ -10,5 +10,7 @@
   type="text" 
   placeholder="Enter username"
   [(ngModel)]="username" />
-  
+
 <p>{{ username }}</p>
+
+<button [disabled]="!username">Reset User</button>
