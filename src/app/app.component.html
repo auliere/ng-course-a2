@@ -13,4 +13,4 @@
 
 <p>{{ username }}</p>
 
-<button [disabled]="!username">Reset User</button>
+<button [disabled]="!username" (click)="onResetUserClick()">Reset User</button>
